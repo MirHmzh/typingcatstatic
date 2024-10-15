@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image and Iframe</title>
+    <style>
+        /* Center container */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        /* Stack image and iframe vertically */
+        .center-content {
+            text-align: center;
+        }
+
+        /* Adjust image and iframe display */
+        img, iframe {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-content">
+        <h1>This is static page</h1>
+        <img src="/asset-img-broken.png" alt="">
+        <iframe src="https://giphy.com/embed/lJNoBCvQYp7nq" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
+</body>
+</html>
