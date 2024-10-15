@@ -18,7 +18,7 @@ resource "aws_s3_bucket_policy" "idn_new_timmy_2" {
   bucket = aws_s3_bucket.idn_new_timmy_2.bucket
 
   policy = jsonencode({
-    Version = "2012-10-17",
+    Version = "20241015",
     Statement = [
       {
         Effect = "Allow",
