@@ -10,6 +10,9 @@ on:
 jobs:
   apply_tf:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./tf
     steps:
     - name: Set up Terraform
       uses: hashicorp/setup-terraform@v2
